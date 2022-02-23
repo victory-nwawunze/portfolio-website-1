@@ -1,0 +1,33 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', 'sans-serif'
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+
+.decription__text > h2{
+    font-size: 5rem;
+    font-weight: 700;
+    padding-top: 15%;
+}
+.container-1 > img{
+    display: flex;
+}
+.main__text{
+    padding-top: 1%;
+    font-size: 6rem;
+    color: rgb(209, 209, 82);
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+#text{
+    padding-top: 3%;
+}
+.image{
+    
+        vertical-align: middle;
+        margin: auto;
+        padding: 43px;
+}
