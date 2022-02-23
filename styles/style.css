@@ -31,6 +31,16 @@ body{
 section{
     padding: 5rem 9%;
 }
+.heading{
+    color: var(--white);
+    font-size: 3rem;
+    font-weight: 200;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+.heading span{
+    font-weight: 700;
+}
 .home{
     height: 100vh;
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/bg-image.jpeg');
@@ -60,4 +70,32 @@ section{
     margin-top: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.3rem;
+}
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    padding: 5rem 9%;
+    right: 0;
+    z-index: 100;
+}
+.header .navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header .navbar a{
+    font-size: 1.5rem;
+    color: var(--white);
+    padding: 0 2rem;
+    letter-spacing: 0.3rem;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.header .menu{
+    font-size: 2.5rem;
+    color: var(--white);
+    cursor: pointer;
+    text-align: left;
+    display: none;
 }
