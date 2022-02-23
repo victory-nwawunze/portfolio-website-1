@@ -1,33 +1,63 @@
-
 *{
+    font-family: 'Segoe UI', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Raleway', 'sans-serif'
+    outline: none;
+    outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 1.2s linear;
 }
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+/* CSS variable */
+:root{
+    --white:#fff;
+    --dark-gray:#ababab;
+    --light-gray:#808080;
+    --dark-bg:#222222;
+    --light-bg:#333333;
+    --yellow:#bac964;
+    --box-shadow:0 0.5rem 1rem rgba(0,0,0,0.1);
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 6rem;
+}
+body{
+    background-color: var(--dark-bg);
+}
+section{
+    padding: 5rem 9%;
+}
+.home{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/bg-image.jpeg');
+    filter: grayscale(100%);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
 
-.decription__text > h2{
-    font-size: 5rem;
-    font-weight: 700;
-    padding-top: 15%;
-}
-.container-1 > img{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
-.main__text{
-    padding-top: 1%;
-    font-size: 6rem;
-    color: rgb(209, 209, 82);
-    font-weight: bolder;
+.home .hero-text{
+    font-size: 7rem;
+    color: var(--white);
+    font-weight: 200;
+    line-height: 1.2;
+}
+.home .hero-text span{
+    font-weight: 800;
+}
+.home p{
+    color: var(--dark-gray);
+    font-size: 1.5rem;
+    margin-top: 2rem;
     text-transform: uppercase;
-}
-#text{
-    padding-top: 3%;
-}
-.image{
-    
-        vertical-align: middle;
-        margin: auto;
-        padding: 43px;
+    letter-spacing: 0.3rem;
 }
