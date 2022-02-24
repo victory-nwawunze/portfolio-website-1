@@ -166,3 +166,22 @@ html::-webkit-scrollbar-thumb{
 .portfolio .box-container .box:hover .image .content{
     transform: translateY(0);
 }
+
+/* Resume */
+.resume .col-container .col .box {
+    background-color: var(--light-bg);
+    padding: 2.5rem;
+    margin: 2rem 0;
+    box-shadow: var(--box-shadow);
+}
+.resume .col-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 4rem;
+}
+.resume .col-container .col h2{
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: 200;
+    padding-bottom: 2rem;
+}
