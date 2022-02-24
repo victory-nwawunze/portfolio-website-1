@@ -272,4 +272,20 @@ html::-webkit-scrollbar-thumb{
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 4rem;
 }
+.clients .box-container .box .content{
+    margin-top: 2rem;
+}
+.clients .box-container .box .content p:nth-child(1){
+    font-size: 1.7rem;
+    color: var(--dark-gray);
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    letter-spacing: 0.1rem;
+    text-transform: none;
+}
+.clients .box-container .box .content p:nth-child(2){
+    font-style: italic;
+    font-size: 1.5rem;
+    color: var(--light-gray);
+}
 /* Client section end */
