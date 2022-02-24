@@ -41,6 +41,17 @@ section{
 .heading span{
     font-weight: 700;
 }
+.btn{
+    background-color: var(--yellow);
+    font-size: 1.7rem;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+    color: var(--white);
+    text-transform: uppercase;
+    margin-right: 1rem;
+    display: inline-block;
+    margin-top: 1rem;
+}
 .home{
     height: 100vh;
     background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/bg-image.jpeg');
@@ -212,3 +223,27 @@ html::-webkit-scrollbar-thumb{
     text-transform: capitalize;
     color: var(--white);
 }
+/* about section */
+.about .box-container .box .image{
+    height: 100%;
+    overflow: hidden;
+}
+.about .box-container .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.about .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 4rem;
+}
+.about .box-container .box p{
+    color: var(--light-gray);
+    margin-bottom: 2rem;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    line-height: 1.5;
+    text-transform: none;
+}
+/* about section end */
