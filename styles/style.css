@@ -185,3 +185,26 @@ html::-webkit-scrollbar-thumb{
     font-weight: 200;
     padding-bottom: 2rem;
 }
+.resume .col-container .col .box span {
+    color: var(--white);
+    font-size: 1.7rem;
+    display: flex;
+    align-items: center;
+}
+.resume .col-container .col .box span i{
+    padding-right: 0.5rem;
+    font-size: 1.7rem;
+}
+.resume .col-container .col .box h3{
+    color: var(--yellow);
+    font-size: 2rem;
+    margin-top: 1rem;
+    font-weight: 400;
+}
+.resume .col-container .col .box p{
+    font-size: 1.7rem;
+    color: var(--dark-gray);
+    margin-top: 1rem;
+    line-height: 1.5;
+    text-transform: none;
+}
