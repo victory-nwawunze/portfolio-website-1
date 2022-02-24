@@ -120,3 +120,27 @@ section{
     padding: 1rem;
     box-shadow: var(--box-shadow);
 }
+.portfolio .box-container .box:hover .image img{
+    transform: scale(1.2);
+}
+.portfolio .box-container .box:hover .image .content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--light-bg);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(100%);
+}
+.portfolio .box-container .box:hover .image .content h2{
+    font-size: 2rem;
+    color: var(--white);
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+}
+.portfolio .box-container .box:hover .image .content{
+    transform: translateY(0);
+}
