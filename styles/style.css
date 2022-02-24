@@ -79,6 +79,13 @@ section{
     right: 0;
     z-index: 100;
 }
+.header.active{
+background-color: var(--white);
+padding: 3rem 9%;
+}
+.header.active .navbar a{
+color: var(--dark-bg);
+}
 .header .navbar{
     display: flex;
     align-items: center;
