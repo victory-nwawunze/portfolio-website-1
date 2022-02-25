@@ -293,3 +293,11 @@ html::-webkit-scrollbar-thumb{
     font-style: normal;
 }
 /* Client section end */
+
+/* Service section start */
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 4rem;
+}
+/* Service section end */
