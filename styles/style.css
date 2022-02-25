@@ -338,3 +338,19 @@ html::-webkit-scrollbar-thumb{
     padding-left: 1.5rem;
 }
 /* Service section end */
+/* Blog section start */
+.blogs .box-container .box .image{
+    height: 30rem;
+    overflow: hidden;
+}
+.blogs .box-container .box .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blogs .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 4rem;
+}
+/* Blog section end */
