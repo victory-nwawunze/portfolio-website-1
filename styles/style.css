@@ -408,4 +408,14 @@ html::-webkit-scrollbar-thumb{
     margin: 0.5rem 0;
     resize: vertical;
 }
+.contact .col-container .col p{
+    font-size: 1.7rem;
+    color: var(--yellow);
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+.contact .col-container .col span{
+    font-size: 1.5rem;
+    color: var(--dark-gray);
+}
 /* contact section end */
