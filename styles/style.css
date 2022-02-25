@@ -417,5 +417,6 @@ html::-webkit-scrollbar-thumb{
 .contact .col-container .col span{
     font-size: 1.5rem;
     color: var(--dark-gray);
+    letter-spacing: 0.1rem;
 }
 /* contact section end */
