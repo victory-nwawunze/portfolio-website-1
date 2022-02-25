@@ -384,3 +384,28 @@ html::-webkit-scrollbar-thumb{
     cursor: pointer;
 }
 /* Blog section end */
+
+/* contact section start */
+.contact .col-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 6rem;
+}
+.contact .col-container .col h2{
+    font-size: 2.5rem;
+    color: var(--white);
+    font-weight: 200;
+    padding-bottom: 5rem;
+}
+.contact .col-container .col input,
+.contact .col-container .col textarea{
+    background-color: var(--light-bg);
+    width: 100%;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-size: 1.7rem;
+    color: var(--dark-gray);
+    margin: 0.5rem 0;
+    resize: vertical;
+}
+/* contact section end */
