@@ -433,6 +433,23 @@ html::-webkit-scrollbar-thumb{
     padding: 1rem;
     margin: 0 1rem;
     cursor: pointer;
-    
+
+}
+.footer p{
+    font-size: 1.7rem;
+    color: var(--dark-gray);
+    margin-top: 3rem;
 }
 /* Footer section end */
+/* media queries */
+@media (max-width:1200px) {
+    .header{
+        padding: 3rem 2rem;
+    }
+    .header.active{
+        padding: 2rem;
+    }
+    section{
+        padding: 3rem 2rem;
+    }
+}
