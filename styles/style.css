@@ -314,4 +314,27 @@ html::-webkit-scrollbar-thumb{
     border-radius: 50%;
     margin-bottom: 2rem;
 }
+.services .box-container .box h2{
+    font-size: 2rem;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.services .box-container .box p{
+    font-style: 1.7rem;
+    color: var(--dark-gray);
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+    text-transform: none;
+    letter-spacing: 0.1rem;
+}
+.services .box-container .box .btn-2{
+    font-style: 1.7rem;
+    color: var(--yellow);
+    display: flex;
+    justify-content: center;
+}
+.services .box-container .box .btn-2:hover i{
+    padding-left: 1.5rem;
+}
 /* Service section end */
