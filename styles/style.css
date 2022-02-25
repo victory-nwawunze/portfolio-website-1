@@ -353,4 +353,34 @@ html::-webkit-scrollbar-thumb{
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 4rem;
 }
+.blogs .box-container .box{
+    background-color: var(--light-bg);
+}
+.blogs .box-container .box .content{
+    padding: 2.5em;
+} 
+.blogs .box-container .box .content h2{
+    font-style: 2rem;
+    color: var(--white);
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+.blogs .box-container .box .content p{
+    color: var(--dark-gray);
+    margin-bottom: 2rem;
+    font-style: 1.7rem;
+}
+.blogs .box-container .box .content span{
+    font-style: 1.5rem;
+    color: var(--light-gray);
+    margin-right: 2rem;
+}
+.blogs .box-container .box .content span i{
+    font-size: 1.7rem;
+    vertical-align: -0.3rem;
+}
+.blogs .box-container .box .content span:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
 /* Blog section end */
