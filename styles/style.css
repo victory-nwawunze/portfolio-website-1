@@ -445,6 +445,31 @@ html::-webkit-scrollbar-thumb{
         font-size: 60%;
     }
 }
+@media (max-width:768px) {
+    .header .menu{
+        display: block;
+    }
+    .header .navbar{
+        position: fixed;
+        top: 6rem;
+        left: 0;
+        right: 0;
+        background-color: var(--white);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+    }
+    .header .header.show{
+        transform: translateX(0);
+    }
+    .header .navbar a{
+        color: var(--dark-bg);
+        margin: 0;
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+}
 @media(max-width:450px){
     html{
         font-size: 55%;
